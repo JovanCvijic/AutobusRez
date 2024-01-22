@@ -14,22 +14,24 @@
                 </asp:Table>
                 <table style="width:100%;">
                     <tr>
-                        <td>broj sedista</td>
-                        <td>
+                        <td style="width: 321px">broj sedista</td>
+                        <td style="width: 368px">
                             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                         </td>
-                        <td>&nbsp;</td>
+                        <td>
+                            <asp:Image ID="Image1" runat="server" Height="414px" ImageUrl="~/fernando-alonso-of-spain-and-aston-martin-f1-team-reacts-in-news-photo-1698957463.jpg" Width="363px" />
+                        </td>
                     </tr>
                     <tr>
-                        <td>ime i prezime</td>
-                        <td>
+                        <td style="width: 321px">ime i prezime</td>
+                        <td style="width: 368px">
                             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                         </td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>email</td>
-                        <td>
+                        <td style="width: 321px">email</td>
+                        <td style="width: 368px">
                             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                         </td>
                         <td>&nbsp;</td>
@@ -40,6 +42,8 @@
 &nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 <br />
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Alonso" />
+&nbsp;<asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                 <br />
             </section>
         </div>

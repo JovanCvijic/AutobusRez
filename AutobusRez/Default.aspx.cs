@@ -17,6 +17,11 @@ namespace AutobusRez
         public const int Max_Sed = 53;
         public List<int> rezervisana=new List<int>();
         private List<Button> mesta = new List<Button>();
+        private void Alonso()
+        {
+            Button2.BackColor = Color.Green;
+            Label2.Text = "LUNA OBOZAVA FERNANDA ALONSA";
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             iscitaj();
@@ -179,6 +184,11 @@ namespace AutobusRez
                     Console.WriteLine(ex.Message);
                 }
             }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Alonso();
         }
     }
 }
